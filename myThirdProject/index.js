@@ -12,19 +12,19 @@ class Hero{
         switch(this.type){
             case "guerreiro":
                 attack = "espada"
-                console.log(`O ${this.type} atacou usando ${attack}!`)
+                console.log(`O ${this.type} de nome ${this.name} e idade de ${this.age} anos, atacou usando ${attack}!`)
                 break
             case "ninja":
-                attack = "shuriken"
-                console.log(`O ${this.type} atacou usando ${attack}!`)
+                attack = "shurikens"
+                console.log(`O ${this.type} de nome ${this.name} e idade de ${this.age} anos, atacou usando ${attack}!`)
                 break
             case "mago":
                 attack = "magia"
-                console.log(`O ${this.type} atacou usando ${attack}!`)
+                console.log(`O ${this.type} de nome ${this.name} e idade de ${this.age} anos, atacou usando ${attack}!`)
                 break
             case "monge":
                 attack = "artes marciais"
-                console.log(`O ${this.type} atacou usando ${attack}!`)
+                console.log(`O ${this.type} de nome ${this.name} e idade de ${this.age} anos, atacou usando ${attack}!`)
                 break
         }
         
