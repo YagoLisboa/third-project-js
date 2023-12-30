@@ -30,3 +30,15 @@ class Hero{
         
     }
 }
+
+//Definindo uma nova instância da classe modelada e criando um novo objeto:
+let heroNinja = new Hero("Itachi", "39", "ninja")
+let heroMonge = new Hero("Aang", "22", "monge")
+let heroGuerreiro = new Hero("Meliodas", "25", "guerreiro")
+let heroMago = new Hero("Paladino", "33", "mago")
+
+//Chamando um método do objeto criado anteriormente:
+heroNinja.attacking()
+heroMonge.attacking()
+heroGuerreiro.attacking()
+heroMago.attacking()
